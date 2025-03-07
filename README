@@ -1,5 +1,28 @@
-This version improves upon Version 1 by adding a user-friendly interface with buttons for checking leap years. 
-It not only determines if a specific year is a leap year but also checks the current year and counts leap years lived. 
-The program includes better input validation, ensuring only valid years are entered. 
-Results are displayed with clear formatting and colors, replacing console output with an interactive overlay.
-While maintaining accurate leap year calculations, this version enhances usability, making checking leap years easier and more engaging.
+Leap Year Calculator
+📌 Description
+The Leap Year Calculator is a simple yet interactive web application that helps users determine whether a given year is a leap year. It also allows users to check how many leap years they have lived through based on their birth year.
+
+🎯 Features
+✅ Check Any Year – Enter any year to see if it’s a leap year.
+✅ Current Year’s Leap Status – Instantly check if the current year is a leap year.
+✅ Leap Years You’ve Lived – Enter your birth year to see how many leap years you’ve experienced.
+✅ Interactive UI – Displays results in an overlay with clean and modern design.
+
+🔧 Technologies Used
+HTML – Structure of the webpage
+CSS – Styling for a modern and responsive design
+JavaScript – Logic for leap year calculations and interactivity
+
+🚀 How to Use
+Open index.html in your browser.
+Click "This Year's Leap Status" to check if the current year is a leap year.
+Enter a specific year and click "Check" to see if it’s a leap year.
+Enter your birth year and click "Check" to find out how many leap years you’ve lived through.
+Click anywhere on the overlay to dismiss the result.
+
+🛠 How It Works
+✔ A year is a leap year if:
+
+It is divisible by 4, and
+It is not divisible by 100, unless it is also divisible by 400.
+✔ JavaScript handles all calculations and updates the UI dynamically.
