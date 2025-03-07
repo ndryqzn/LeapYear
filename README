@@ -1,0 +1,5 @@
+This version improves upon Version 1 by adding a user-friendly interface with buttons for checking leap years. 
+It not only determines if a specific year is a leap year but also checks the current year and counts leap years lived. 
+The program includes better input validation, ensuring only valid years are entered. 
+Results are displayed with clear formatting and colors, replacing console output with an interactive overlay.
+While maintaining accurate leap year calculations, this version enhances usability, making checking leap years easier and more engaging.

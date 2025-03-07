@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <title>Leap Year Calculator</title>
+</head>
+<body>
+    <main>
+        <div class="circle-light">
+            <div class="circle">
+                <div class="content">
+                    <div class="info">
+                        <h2>What is a</h2>
+                        <h1>Leap Year?</h1>
+                        <p>It takes approximately 365.25 days for Earth to orbit the Sun — a solar year. We
+                            usually round the days in a calendar year to 365. To make up for the missing
+                            partial day, we add one day to our calendar approximately every four years.
+                            That is a leap year.</p>
+                    </div>
+
+                    <div class="button-container">
+                        <button class="status-button" id="checkCurrentYearBtn">This Year's Leap Status</button>
+                    </div>
+
+                    <div class="sections-container">
+                        <div class="section">
+                            <div class="section-title">Leap Years You've Lived</div>
+                            <div class="input-container">
+                                <input type="text" id="birthYear" placeholder="Enter your birth year">
+                                <button class="check-button" id="checkLivedLeapYearsBtn">Check</button>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <div class="section-title">Check a Year</div>
+                            <div class="input-container">
+                                <input type="text" id="year" placeholder="Enter a year">
+                                <button class="check-button" id="checkYearBtn">Check</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="black-gradient"></div>
+
+    <div id="overlay" class="overlay" onclick="hideOverlay()">
+        <div class="overlay-content">
+            <div class="top-text">
+                <p class="small-text" id="yearText"></p>
+            </div>
+            <div class="mid-text">
+                <p class="big-number" id="daysText"></p>
+                <div class="leapYear-Text">
+                    <div class="leap-text">
+                        <p id="leap-text"></p>
+                    </div>
+                    <div class="year-text">
+                        <p id="year-text"></p>
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+            <div class="bot-text">
+                <p class="small-text" id="messageText"></p>
+            </div>
+        </div>
+        <p class="click-to-continue">Click anywhere to continue</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
