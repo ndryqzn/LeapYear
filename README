@@ -13,16 +13,11 @@ HTML – Structure of the webpage
 CSS – Styling for a modern and responsive design
 JavaScript – Logic for leap year calculations and interactivity
 
-🚀 How to Use
-Open index.html in your browser.
-Click "This Year's Leap Status" to check if the current year is a leap year.
-Enter a specific year and click "Check" to see if it’s a leap year.
-Enter your birth year and click "Check" to find out how many leap years you’ve lived through.
-Click anywhere on the overlay to dismiss the result.
-
 🛠 How It Works
 ✔ A year is a leap year if:
 
 It is divisible by 4, and
 It is not divisible by 100, unless it is also divisible by 400.
 ✔ JavaScript handles all calculations and updates the UI dynamically.
+
+*NOTE: Di siya responsive hehe*
